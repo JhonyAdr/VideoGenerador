@@ -1,0 +1,63 @@
+# ====================================
+# VideoGenerador - Dependencias
+# ====================================
+
+# Video processing and editing
+# IMPORTANTE: Usar versión 1.0.3 específicamente
+# Otras versiones pueden tener problemas de compatibilidad
+moviepy==1.0.3
+
+# Text-to-Speech
+# Genera narración de voz automática
+gTTS>=2.3.0
+
+# Image processing
+# Manipulación y procesamiento de imágenes
+Pillow>=10.0.0
+
+# Numerical operations
+# Operaciones con arrays y matrices
+numpy>=1.24.0
+
+# Image analysis and similarity
+# Análisis de similitud estructural entre imágenes
+scikit-image>=0.21.0
+
+# Perceptual image hashing
+# Comparación de imágenes por hash perceptual
+ImageHash>=4.3.0
+
+# ====================================
+# Dependencias adicionales (instaladas automáticamente)
+# ====================================
+# - scipy (requerido por scikit-image)
+# - decorator (requerido por moviepy)
+# - imageio (requerido por moviepy)
+# - imageio-ffmpeg (requerido por moviepy)
+# - requests (requerido por gTTS)
+# - PyWavelets (requerido por scikit-image)
+
+# ====================================
+# Requisitos del sistema
+# ====================================
+# - Python 3.7 o superior
+# - FFmpeg instalado en el sistema
+# - Conexión a internet (para gTTS)
+
+# ====================================
+# Instalación
+# ====================================
+# pip install -r requirements.txt
+
+# ====================================
+# Notas importantes
+# ====================================
+# 1. MoviePy 1.0.3 es la versión estable recomendada
+# 2. Si tienes problemas con MoviePy, desinstala primero:
+#    pip uninstall moviepy
+#    pip install moviepy==1.0.3
+# 3. Asegúrate de tener FFmpeg instalado:
+#    - Windows: choco install ffmpeg
+#    - macOS: brew install ffmpeg
+#    - Linux: sudo apt install ffmpeg
+
